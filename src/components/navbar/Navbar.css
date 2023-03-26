@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+   }
+   
+.navbar{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #d2d4f1;
+    border-bottom:  1px solid rgb(105, 103, 103);
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.home{
+    font-size: 25px;
+    flex: 1;
+}
+.info{
+    font-size: 25px;
+    flex: 1;
+}
+.teste{
+    font-size: 25px;
+    flex: 4;
+}
