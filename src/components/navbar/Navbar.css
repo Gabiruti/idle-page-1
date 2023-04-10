@@ -16,8 +16,10 @@ body{
 .icon{
     width: 50px;
     height: 50px;
+    color: rgb(64,60,60);
 }
 .home{
+    margin-left: 10px;
     font-size: 25px;
     flex: 1;
 }
@@ -29,3 +31,21 @@ body{
     font-size: 25px;
     flex: 4;
 }
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: rgb(64,60,60);
+  }
+  
+  /* visited link */
+  a:visited {
+    text-decoration: none;
+    color: rgb(64,60,60);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    text-decoration: none;
+    color: rgb(64,60,60);
+  }
+  

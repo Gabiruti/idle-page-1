@@ -5,9 +5,15 @@ function Navbar() {
   return (
         <nav className='navbar'>
             <img className='icon' src={Icon} alt="Icon" />
-            <a className='home' href='#'>Home</a>
-            <a className='info' href='#'>Info</a>
-            <a className='teste' href='#'>Teste</a>
+          <div className='home'>
+            <a href='#'>Home</a>
+          </div>
+          <div className='info'>
+            <a  href='#'>Info</a>
+          </div>
+          <div className='teste'>
+            <a href='#'>Teste</a>
+          </div>
         </nav>
   );
 }
