@@ -1,0 +1,81 @@
+.lamp {
+  position:relative;
+  margin:0 auto;
+  width:.7rem;
+  height:17rem;
+  background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                   linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                   linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-repeat:no-repeat;
+  background-size:.15rem 8rem, .4rem .8rem, .7rem 2rem;
+  background-position:50% 0, .19rem 8rem, 0 8.8rem;
+}
+.lamp:before{
+  content:'';
+  position:absolute;
+  left: -4.74rem;
+  bottom:-3.80rem;
+  width: 10rem;
+  height:10rem;
+  border-radius:50%;
+  background:rgba(255,255,255,0.03);
+  box-shadow:inset 2px -2px 10px rgba(255,255,255,0.07);
+  transition:all .15s;
+}
+
+.light{
+    position:absolute;
+    left: -4.74rem;
+    bottom:-3.80rem;
+    width: 10rem;
+    height:10rem;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+    animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+button {
+    position:relative;
+    left: 90%;
+    margin-top:15%;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background: linear-gradient(45deg, #00e0ff, #0065ff);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+
+.on{
+    background: linear-gradient(45deg, #00e020, #006520);
+}
+.off{
+    background: linear-gradient(45deg, #e00020, #650020);
+}
