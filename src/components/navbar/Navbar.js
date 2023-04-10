@@ -1,10 +1,12 @@
-import './Navbar.css';
+import './navbar.css';
 import Icon from './react-png.png'
 
 function Navbar() {
   return (
         <nav className='navbar'>
+          <div className='imgHolder'>
             <img className='icon' src={Icon} alt="Icon" />
+          </div>
           <div className='home'>
             <a href='#'>Home</a>
           </div>

@@ -10,8 +10,12 @@ body{
     justify-content: right;
     position: relative;
     padding: 0.5rem 0rem;
-    background-color: #d2d4f1;
+    background-color: #696a70fd;
     border-bottom:  1px solid rgba(51,51,51,5);
+}
+.imgHolder{
+    flex: 0.4;
+    align-self: center
 }
 .icon{
     width: 50px;
@@ -29,23 +33,23 @@ body{
 }
 .teste{
     font-size: 25px;
-    flex: 4;
+    flex: 1;
 }
 /* unvisited link */
 a:link {
     text-decoration: none;
-    color: rgb(64,60,60);
+    color: white;
   }
   
   /* visited link */
   a:visited {
     text-decoration: none;
-    color: rgb(64,60,60);
+    color: white;
   }
   
   /* mouse over link */
   a:hover {
     text-decoration: none;
-    color: rgb(64,60,60);
+    color: white;
   }
   
